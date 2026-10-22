@@ -36,7 +36,7 @@
 
       .cls-9 {
         fill: none;
-        stroke: #346cda;
+        stroke: #49b7c9;
         stroke-miterlimit: 10;
         stroke-width: 3px;
       }
@@ -134,8 +134,8 @@
       }
     </style>
     <linearGradient id="_未命名的渐变_11" data-name="未命名的渐变 11" x1="48.67" y1="293.86" x2="76.57" y2="293.86" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#346dd4"/>
-      <stop offset="1" stop-color="#55a171"/>
+      <stop offset="0" stop-color="#49b7c9"/>
+      <stop offset="1" stop-color="#f2f28a"/>
     </linearGradient>
     <linearGradient id="_未命名的渐变_11-2" data-name="未命名的渐变 11" x1="42.77" y1="333.09" x2="82.52" y2="333.09" xlink:href="#_未命名的渐变_11"/>
     <linearGradient id="_未命名的渐变_11-3" data-name="未命名的渐变 11" x1="35.5" y1="277.34" x2="89.6" y2="277.34" xlink:href="#_未命名的渐变_11"/>

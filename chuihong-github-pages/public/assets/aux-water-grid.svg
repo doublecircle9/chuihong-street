@@ -39,19 +39,19 @@
       }
 
       .cls-13 {
-        fill: #336ed4;
+        fill: #49b7c9;
       }
 
       .cls-14, .cls-15 {
-        fill: #3d3a39;
+        fill: #303331;
       }
 
       .cls-16 {
-        fill: #336ed9;
+        fill: #49b7c9;
       }
 
       .cls-2, .cls-3, .cls-4 {
-        stroke: #336ed9;
+        stroke: #49b7c9;
         stroke-miterlimit: 10;
       }
 
@@ -60,7 +60,7 @@
       }
 
       .cls-18 {
-        fill: #53a671;
+        fill: #f2f28a;
       }
 
       .cls-19 {
@@ -72,7 +72,7 @@
       }
 
       .cls-20, .cls-21 {
-        fill: #595757;
+        fill: #303331;
         font-family: AlibabaPuHuiTi-Regular-GBpc-EUC-H, 'Alibaba PuHuiTi';
       }
 
@@ -145,8 +145,8 @@
       }
     </style>
     <linearGradient id="_未命名的渐变_11" data-name="未命名的渐变 11" x1="613.32" y1="222.61" x2="818.46" y2="222.61" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#346dd4"/>
-      <stop offset="1" stop-color="#55a171"/>
+      <stop offset="0" stop-color="#49b7c9"/>
+      <stop offset="1" stop-color="#f2f28a"/>
     </linearGradient>
     <linearGradient id="_未命名的渐变_11-2" data-name="未命名的渐变 11" x1="286.85" y1="271.58" x2="332.4" y2="271.58" xlink:href="#_未命名的渐变_11"/>
     <linearGradient id="_未命名的渐变_11-3" data-name="未命名的渐变 11" x1="332.26" y1="270.35" x2="377.81" y2="270.35" xlink:href="#_未命名的渐变_11"/>

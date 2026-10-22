@@ -1,50 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg id="_图层_1" data-name="图层 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 630.3 231.73">
-  <defs>
-    <style>
-      .cls-1 {
-        font-family: 'AlibabaPuHuiTi_3_55_Regular', 'AlibabaPuHuiTi 3 55 Regular-GBpc-EUC-H';
-        font-size: 6.46px;
-        font-variation-settings: ';
-        letter-spacing: .15em;
-      }
-
-      .cls-1, .cls-2 {
-        fill: #231815;
-      }
-
-      .cls-3 {
-        fill: url(#_未命名的渐变_5);
-      }
-
-      .cls-4 {
-        fill: url(#_未命名的渐变_5-3);
-      }
-
-      .cls-5 {
-        fill: url(#_未命名的渐变_5-2);
-      }
-
-      .cls-2 {
-        font-family: FZXTHJW--GB1-0, FZTanHeiS-L-GB;
-        font-size: 13.47px;
-        letter-spacing: .3em;
-      }
-    </style>
-    <linearGradient id="_未命名的渐变_5" data-name="未命名的渐变 5" x1="294.76" y1="79.33" x2="335.76" y2="79.33" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#156fda"/>
-      <stop offset="1" stop-color="#30a26c"/>
-    </linearGradient>
-    <linearGradient id="_未命名的渐变_5-2" data-name="未命名的渐变 5" x1="283.57" y1="101.99" x2="347.99" y2="101.99" xlink:href="#_未命名的渐变_5"/>
-    <linearGradient id="_未命名的渐变_5-3" data-name="未命名的渐变 5" x1="293.96" y1="125.15" x2="337.61" y2="125.15" xlink:href="#_未命名的渐变_5"/>
-  </defs>
-  <g>
-    <path class="cls-3" d="M294.76,76.83c3.65.36,7.83.48,12.41.11,12.53-1.03,22.34-5.33,28.59-8.81v15.59s-17.29,9.04-40.99,6.29v-13.17Z"/>
-    <path class="cls-5" d="M315.79,90.33c-1.97,2.46-4.28,5.03-6.98,7.59-2.29,2.17-5.65,5.32-10.73,8.4-4.86,2.94-8.46,4.11-9.28,4.37-2.09.66-3.9,1.03-5.22,1.25v1.7h64.42v-1.7c-2.19-.38-5.23-1.09-8.66-2.5-5.17-2.13-8.55-4.76-11.62-7.17-3.26-2.57-7.58-6.44-11.93-11.93Z"/>
-    <path class="cls-4" d="M293.96,135.81c0-11.77,9.77-21.32,21.83-21.32s21.83,9.54,21.83,21.32"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 150" role="img" aria-labelledby="title desc">
+  <title id="title">垂虹有续</title>
+  <desc id="desc">由亭檐、塔影与桥洞组成的垂虹有续品牌标志</desc>
+  <g fill="#49b7c9" transform="translate(-258 -51)">
+    <path d="M294.76 76.83c3.65.36 7.83.48 12.41.11 12.53-1.03 22.34-5.33 28.59-8.81v15.59s-17.29 9.04-40.99 6.29V76.83Z"/>
+    <path d="M315.79 90.33c-1.97 2.46-4.28 5.03-6.98 7.59-2.29 2.17-5.65 5.32-10.73 8.4-4.86 2.94-8.46 4.11-9.28 4.37-2.09.66-3.9 1.03-5.22 1.25v1.7H348v-1.7c-2.19-.38-5.23-1.09-8.66-2.5-5.17-2.13-8.55-4.76-11.62-7.17-3.26-2.57-7.58-6.44-11.93-11.93Z"/>
+    <path d="M293.96 135.81c0-11.77 9.77-21.32 21.83-21.32s21.83 9.54 21.83 21.32Z"/>
   </g>
-  <g>
-    <text class="cls-2" transform="translate(266.67 152.94)"><tspan x="0" y="0">垂虹文化街区</tspan></text>
-    <text class="cls-1" transform="translate(267.28 161.89)"><tspan x="0" y="0">Chui Hong Cultural Street</tspan></text>
+  <g fill="#303331" font-family="PingFang SC, Microsoft YaHei, sans-serif">
+    <text x="108" y="72" font-size="34" font-weight="700" letter-spacing="8">垂虹有续</text>
+    <text x="110" y="98" font-size="12" font-weight="700" letter-spacing="3">CHUIHONG CONTINUES</text>
   </g>
+  <rect x="108" y="111" width="210" height="7" fill="#f2f28a"/>
 </svg>

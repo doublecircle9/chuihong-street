@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-label="垂虹有续品牌视觉应用总览">
+  <defs>
+    <filter id="s" x="-30%" y="-30%" width="180%" height="180%"><feDropShadow dx="18" dy="24" stdDeviation="10" flood-color="#303331" flood-opacity=".28"/></filter>
+    <pattern id="waves" width="96" height="44" patternUnits="userSpaceOnUse"><path d="M0 22Q24-4 48 22T96 22V44H0Z" fill="#49b7c9"/><path d="M0 32Q24 6 48 32T96 32" fill="none" stroke="#f2f28a" stroke-width="8"/></pattern>
+    <pattern id="petal" width="84" height="84" patternUnits="userSpaceOnUse"><circle cx="42" cy="42" r="9" fill="#f2f28a"/><path d="M42 2a40 40 0 0 0 0 80 40 40 0 0 0 0-80ZM2 42a40 40 0 0 0 80 0 40 40 0 0 0-80 0Z" fill="none" stroke="#49b7c9" stroke-width="8"/></pattern>
+    <g id="mark" fill="currentColor"><path d="M6 4c15 2 28 1 42-1 18-2 32-8 43-15v25c-21 12-49 15-85 9Z"/><path d="M49 24c-9 14-23 26-45 35v4h94v-4C77 51 62 39 49 24Z"/><path d="M18 91a31 31 0 0 1 62 0Z"/></g>
+    <g id="tower" fill="currentColor"><path d="M60 0 0 28h120Z"/><path d="M60 32 10 54h100Z"/><path d="M60 59 20 78h80Z"/><path d="M60 84 30 99h60Z"/><rect x="53" y="99" width="14" height="70"/></g>
+  </defs>
+  <rect width="1600" height="1000" fill="#e7eaeb"/>
+  <g filter="url(#s)">
+    <rect x="90" y="75" width="500" height="310" fill="#fafaf6"/>
+    <rect x="90" y="265" width="500" height="120" fill="url(#waves)"/>
+    <use href="#tower" x="135" y="100" width="115" height="170" color="#49b7c9"/>
+    <path d="M235 246h260v-24h40v42H235Z" fill="#303331"/>
+    <g transform="translate(430 105) scale(.55)" color="#49b7c9"><use href="#mark"/></g>
+    <text x="493" y="140" font-family="sans-serif" font-size="20" font-weight="700" text-anchor="middle" fill="#303331">垂虹有续</text>
+  </g>
+  <g filter="url(#s)">
+    <rect x="660" y="100" width="330" height="245" fill="#49b7c9"/>
+    <rect x="660" y="240" width="330" height="105" fill="url(#waves)"/>
+    <path d="M680 230h265v-31h28v48H680Z" fill="#303331"/>
+    <g transform="translate(780 125) scale(.6)" color="#fafaf6"><use href="#mark"/></g>
+  </g>
+  <g filter="url(#s)">
+    <rect x="1080" y="70" width="410" height="330" fill="#49b7c9"/>
+    <rect x="1100" y="220" width="370" height="160" fill="url(#petal)"/>
+    <path d="M1100 190h300v-30h55v55h-355Z" fill="#303331"/>
+    <use href="#tower" x="1340" y="88" width="95" height="140" color="#f2f28a"/>
+  </g>
+  <g filter="url(#s)">
+    <rect x="95" y="470" width="420" height="210" fill="url(#petal)"/>
+    <rect x="295" y="470" width="220" height="210" fill="#f2f28a" fill-opacity=".82"/>
+    <g transform="translate(335 520) scale(.82)" color="#303331"><use href="#mark"/></g>
+  </g>
+  <g filter="url(#s)">
+    <rect x="575" y="455" width="385" height="245" fill="#49b7c9"/>
+    <path d="M575 610h385v90H575Z" fill="url(#waves)"/>
+    <g transform="translate(715 500) scale(.75)" color="#fafaf6"><use href="#mark"/></g>
+    <text x="765" y="595" font-family="sans-serif" font-size="19" font-weight="700" text-anchor="middle" fill="#fafaf6">CHUIHONG CONTINUES</text>
+  </g>
+  <g filter="url(#s)">
+    <rect x="1040" y="455" width="170" height="360" rx="28" fill="#303331"/>
+    <rect x="1051" y="466" width="148" height="338" rx="20" fill="#49b7c9"/>
+    <rect x="1051" y="645" width="148" height="159" fill="url(#waves)"/>
+    <g transform="translate(1088 510) scale(.72)" color="#fafaf6"><use href="#mark"/></g>
+  </g>
+  <g filter="url(#s)">
+    <rect x="1260" y="470" width="235" height="335" fill="#fafaf6"/>
+    <rect x="1260" y="470" width="118" height="166" fill="url(#petal)"/>
+    <rect x="1378" y="470" width="117" height="166" fill="#f2f28a"/>
+    <rect x="1260" y="636" width="118" height="169" fill="#49b7c9"/>
+    <rect x="1378" y="636" width="117" height="169" fill="url(#waves)"/>
+    <use href="#tower" x="1400" y="485" width="70" height="115" color="#49b7c9"/>
+    <g transform="translate(1280 675) scale(.72)" color="#fafaf6"><use href="#mark"/></g>
+  </g>
+  <g filter="url(#s)"><rect x="130" y="800" width="760" height="90" rx="45" fill="#49b7c9"/><rect x="360" y="800" width="65" height="90" fill="#f2f28a"/><rect x="470" y="800" width="24" height="90" fill="#303331"/></g>
+  <text x="100" y="960" fill="#303331" font-family="sans-serif" font-size="22" font-weight="700" letter-spacing="8">CHUIHONG CONTINUES · BRAND SYSTEM</text>
+</svg>
