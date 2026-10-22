@@ -299,3 +299,200 @@ img { display:block; max-width:100%; }
 }
 
 @media (prefers-reduced-motion:reduce) { *,*::before,*::after { animation-duration:.01ms!important; animation-iteration-count:1!important; scroll-behavior:auto!important; } }
+
+/* CHUIHONG CONTINUES — 2026 brand refresh */
+:root {
+  --blue:#49b7c9;
+  --green:#f2f28a;
+  --ink:#303331;
+  --paper:#fafaf6;
+  --line:rgba(48,51,49,.2);
+}
+
+body {
+  background-color:var(--paper);
+  background-image:radial-gradient(rgba(48,51,49,.055) .6px,transparent .6px);
+  background-size:5px 5px;
+}
+
+.brand-mark { color:var(--blue); }
+.brand-mark.is-light { color:#fff; }
+.water-cursor { border-color:rgba(73,183,201,.62); }
+.water-cursor::after { border-color:rgba(242,242,138,.86); }
+
+.site-nav {
+  height:82px;
+  border-bottom:2px solid var(--ink);
+  background:rgba(250,250,246,.94);
+  box-shadow:inset 0 5px 0 var(--green);
+}
+.nav-brand { width:48px; height:48px; background:var(--blue); }
+.nav-brand .brand-mark { width:36px; color:#fff; }
+.nav-wordmark span { font-size:17px; font-weight:750; letter-spacing:.12em; }
+.nav-wordmark small { font-size:7.5px; font-weight:700; letter-spacing:.17em; opacity:.68; }
+.nav-links a::after { height:3px; bottom:3px; background:var(--blue); }
+
+.hero {
+  min-height:100svh;
+  grid-template-columns:.88fr 1.12fr;
+  gap:5vw;
+  padding-top:13vh;
+  background:linear-gradient(90deg,var(--paper) 0 48%,var(--blue) 48% 100%);
+}
+.hero::before {
+  width:30vw;
+  height:15vw;
+  left:-3vw;
+  bottom:-2px;
+  border:0;
+  border-radius:20vw 20vw 0 0;
+  background:var(--green);
+  box-shadow:12vw 0 0 rgba(73,183,201,.18),24vw 0 0 rgba(242,242,138,.35);
+}
+.hero-copy { padding:5vh 0 12vh; }
+.hero h1 {
+  margin:5.5vh 0 5vh;
+  font-family:"PingFang SC","Microsoft YaHei",sans-serif;
+  font-size:clamp(94px,12vw,184px);
+  font-weight:800;
+  line-height:.76;
+  letter-spacing:-.1em;
+}
+.hero h1 span {
+  display:inline-block;
+  margin-left:.55em;
+  color:var(--blue);
+  -webkit-text-stroke:0;
+}
+.hero-subcopy { border-left:7px solid var(--green); padding-left:16px; }
+.hero-subcopy p { font-weight:750; }
+.hero-stamp {
+  position:absolute;
+  right:1vw;
+  bottom:10vh;
+  width:92px;
+  height:92px;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  align-items:center;
+  padding:10px;
+  border:2px solid var(--ink);
+  background:var(--green);
+  transform:rotate(5deg);
+}
+.hero-stamp .brand-mark { width:38px; color:var(--ink); }
+.hero-stamp span { font-family:"STSong","Songti SC",serif; font-size:28px; }
+
+.map-stage {
+  aspect-ratio:1.12;
+  border:2px solid var(--ink);
+  border-radius:0;
+  background:var(--paper);
+  color:var(--ink);
+  box-shadow:18px 18px 0 var(--green);
+  transform:none;
+}
+.map-stage:hover { transform:translate(-4px,-4px); box-shadow:22px 22px 0 var(--green); }
+.map-stage.is-open { border-radius:0; transform:none; box-shadow:10px 10px 0 var(--green); }
+.map-base.brand-scroll { object-fit:contain; padding:7%; background:var(--paper); filter:none; }
+.map-wash { background:linear-gradient(145deg,rgba(73,183,201,.05),rgba(242,242,138,.12)); mix-blend-mode:normal; }
+.map-grid { opacity:.12; background-image:linear-gradient(90deg,var(--ink) 1px,transparent 1px),linear-gradient(var(--ink) 1px,transparent 1px); background-size:54px 54px; }
+.map-pin { left:auto; right:22px; top:22px; transform:none; padding:9px 13px; background:var(--green); border:1px solid var(--ink); }
+.map-pin i { width:9px; height:9px; background:var(--ink); box-shadow:none; animation:none; }
+.map-pin b { font-size:9px; }
+.map-caption { left:24px; bottom:22px; padding:10px 13px; color:var(--ink); background:rgba(250,250,246,.9); border:1px solid var(--ink); }
+.map-stage.is-open .map-wash { opacity:.38; background:linear-gradient(120deg,rgba(73,183,201,.78),rgba(48,51,49,.2)); }
+.scroll-cue i::after { width:7px; height:7px; top:-3px; background:var(--blue); }
+.hero-index { padding:8px 10px; color:var(--ink); background:var(--green); }
+
+.history { background:var(--ink); }
+.history::before {
+  content:"续";
+  position:absolute;
+  left:3vw;
+  bottom:1vh;
+  color:rgba(242,242,138,.08);
+  font-family:"STSong","Songti SC",serif;
+  font-size:35vw;
+  line-height:1;
+}
+.history h2 em { color:var(--green); -webkit-text-stroke:0; }
+.history blockquote { border-left:7px solid var(--green); }
+.compare-stage { border:2px solid var(--green); box-shadow:16px 16px 0 var(--blue); background:#232524; }
+.compare-control input { accent-color:var(--green); }
+
+.identity { background:var(--paper); }
+.identity-head { border-bottom:2px solid var(--ink); }
+.identity-head h2,.system-head h2,.street-head h2,.applications-head h2 { letter-spacing:-.035em; }
+.identity-stage::before {
+  content:"";
+  position:absolute;
+  left:2%;
+  top:12%;
+  width:40%;
+  height:74%;
+  background:var(--green);
+  border:2px solid var(--ink);
+  box-shadow:14px 14px 0 var(--blue);
+}
+.identity-mark .brand-mark { color:var(--blue); filter:drop-shadow(0 8px 0 rgba(48,51,49,.12)); }
+.origin-notes article::before { height:4px; background:var(--blue); }
+.origin-notes article.is-active { background:linear-gradient(90deg,rgba(242,242,138,.62),transparent 78%); }
+.identity-footer { border-top:2px solid var(--ink); gap:24px; }
+.identity-footer span { white-space:nowrap; }
+.identity-footer span::before { content:""; display:inline-block; width:10px; height:10px; margin-right:7px; border:1px solid var(--ink); vertical-align:-1px; }
+.identity-footer span:nth-of-type(1)::before { background:var(--blue); }
+.identity-footer span:nth-of-type(2)::before { background:var(--green); }
+.identity-footer span:nth-of-type(3)::before { background:var(--ink); }
+.identity-footer span:nth-of-type(4)::before { background:var(--paper); }
+
+.visual-system { background:var(--green); }
+.visual-system::before { opacity:.36; background-image:linear-gradient(90deg,rgba(48,51,49,.15) 1px,transparent 1px),linear-gradient(rgba(48,51,49,.15) 1px,transparent 1px); }
+.pattern-canvas,.pattern-canvas.pattern-flow,.pattern-canvas.pattern-arch,.pattern-canvas.pattern-stack {
+  border:2px solid var(--ink);
+  background-color:var(--paper);
+  box-shadow:18px 18px 0 var(--blue);
+}
+.pattern-glow { background:radial-gradient(circle,rgba(242,242,138,.42),rgba(73,183,201,.16) 42%,transparent 72%); }
+.pattern-controls button,.app-filters button { border:1px solid var(--ink); background:var(--paper); }
+.pattern-controls button.active,.pattern-controls button:hover { color:var(--ink); background:var(--blue); border-color:var(--ink); }
+
+.street-life { background:var(--blue); }
+.street-head .eyebrow { display:inline-flex; width:max-content; padding:8px 10px; border:1px solid var(--ink); background:var(--green); }
+.street-photo { border:2px solid var(--ink); box-shadow:18px 18px 0 var(--green); }
+.street-nav button { border-top:1px solid rgba(48,51,49,.48); }
+.street-nav button:last-of-type { border-bottom:1px solid rgba(48,51,49,.48); }
+.street-nav button.active { padding-left:18px; background:var(--green); border-left:7px solid var(--ink); }
+.street-nav > p { color:rgba(48,51,49,.72); }
+
+.applications { background:var(--paper); }
+.applications-head { border-bottom:2px solid var(--ink); padding-bottom:36px; }
+.app-filters button.active,.app-filters button:hover { color:var(--ink); background:var(--green); }
+.app-grid { grid-template-columns:repeat(3,minmax(0,1fr)); gap:5vw 2vw; }
+.app-grid figure > div { border:2px solid var(--ink); background:var(--blue); }
+.app-grid figure.wide > div { aspect-ratio:2.05; }
+.app-grid img { object-fit:cover; }
+.app-grid .app-illustration img,.app-grid .app-scroll img { object-fit:contain; padding:7%; background:var(--paper); }
+.app-grid .app-stamp img { object-position:12% center; transform:scale(1.35); }
+.app-grid .app-phone img { object-position:88% center; transform:scale(1.35); }
+.app-grid .app-pattern img { object-position:left center; transform:scale(1.45); }
+.app-grid .app-stamp:hover img,.app-grid .app-phone:hover img,.app-grid .app-pattern:hover img { transform:scale(1.4); }
+.app-grid figcaption { border-top:2px solid var(--ink); }
+
+.site-footer > img { filter:grayscale(1) brightness(.34) contrast(1.12); }
+.footer-overlay { background:linear-gradient(125deg,rgba(73,183,201,.84),rgba(48,51,49,.28) 52%,rgba(242,242,138,.48)); mix-blend-mode:multiply; }
+.footer-overlay::after { border-color:rgba(242,242,138,.5); box-shadow:0 0 0 7vw rgba(242,242,138,.055),0 0 0 14vw rgba(73,183,201,.06); }
+.footer-content h2 { color:var(--green); }
+
+@media (max-width:900px) {
+  .hero { background:var(--paper); }
+  .hero-copy { padding-bottom:0; }
+  .hero-stamp { right:8px; bottom:0; width:72px; height:72px; }
+  .map-stage { box-shadow:10px 10px 0 var(--green); }
+  .identity-stage::before { left:3%; top:5%; width:86%; height:43%; box-shadow:10px 10px 0 var(--blue); }
+  .identity-footer { display:grid; grid-template-columns:1fr 1fr; }
+  .identity-footer p { grid-column:1/-1; }
+  .pattern-canvas { box-shadow:10px 10px 0 var(--blue); }
+  .street-photo { box-shadow:10px 10px 0 var(--green); }
+  .app-grid { grid-template-columns:1fr; }
+}
